@@ -1,0 +1,25 @@
+.diff-works {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.cards {
+	margin: 2rem 2rem;
+}
+
+.role,
+.business,
+.date,
+.text2 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 5px 0;
+}
+
+.text2 {
+	max-width: 300px;
+	text-align: justify;
+}
