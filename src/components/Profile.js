@@ -4,11 +4,13 @@ import profile from '../assets/1651657926797 - Copy.jpg'
 
 const Profile = () => {
 	return (
-		<section id='about'>
-			<div>
+		<section id='profile'>
+			<div className='container'>
 				<div className='image'>
 					<img id='logo' alt='Here I am' src={profile}></img>
-					<button className='work'>Open to work</button>
+					<button id='button' className='work'>
+						Open to work
+					</button>
 				</div>
 
 				<div className='title'>

@@ -1,0 +1,14 @@
+.img-projects {
+	width: 200px;
+}
+
+#projects {
+	display: flex;
+	justify-content: center;
+}
+
+.tecnologies {
+	display: flex;
+	justify-content: flex-start;
+	gap: 1rem;
+}

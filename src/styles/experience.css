@@ -1,3 +1,8 @@
+#experience {
+	display: flex;
+	justify-content: center;
+}
+
 .diff-works {
 	display: flex;
 	justify-content: center;
