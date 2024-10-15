@@ -1,0 +1,11 @@
+.about-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+}
+
+#rovi {
+	width: 150px;
+	border-radius: 50%;
+}

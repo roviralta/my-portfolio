@@ -1,9 +1,9 @@
+/* General Navbar Styles */
 nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	height: 10vh;
-	font-size: 1.5rem;
 }
 
 .nav-links {
@@ -26,8 +26,4 @@ nav {
 	text-decoration: underline;
 	text-underline-offset: 0.5rem;
 	text-decoration-color: rgb(181, 181, 181);
-}
-
-.logo:hover {
-	cursor: pointer;
 }

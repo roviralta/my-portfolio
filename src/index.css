@@ -12,5 +12,29 @@ body {
 }
 
 html {
-	scroll-behavior: smooth; 
+	scroll-behavior: smooth;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 2rem;
+}
+
+.container {
+	width: 800px;
+	margin-bottom: 3rem;
+}
+
+.presentation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.buttons button {
+	margin-right: 1rem;
 }
