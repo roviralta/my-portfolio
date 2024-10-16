@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import About from './components/About'
 import Experience from './components/Experience'
+import Projects from './components/Projects'
 
 function App() {
 	return (
@@ -8,6 +9,7 @@ function App() {
 			<Navbar></Navbar>
 			<About></About>
 			<Experience></Experience>
+			<Projects></Projects>
 		</div>
 	)
 }
