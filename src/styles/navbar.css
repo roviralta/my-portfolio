@@ -22,7 +22,7 @@ nav {
 }
 
 .nav-links a:hover {
-	color: grey;
+	color: #999;
 	text-decoration: underline;
 	text-underline-offset: 0.5rem;
 	text-decoration-color: rgb(181, 181, 181);
