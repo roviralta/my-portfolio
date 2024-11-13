@@ -1,0 +1,48 @@
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.presentation {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.intro {
+  color: #555;
+}
+
+.name {
+  color: #222;
+}
+
+.role {
+  font-size: 2rem;
+  color: #333;
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 601px) {
+  #about {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  #about {
+    align-items: flex-start; /* Aligns content to the start on smaller screens */
+    padding-top: 1rem; /* Reduces padding for a more compact design */
+  }
+
+  .presentation {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  .role {
+    font-size: 1.2rem; /* Adjust role font size for smaller screens */
+  }
+}

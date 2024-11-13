@@ -36,5 +36,5 @@ a:hover {
   text-decoration: underline;
   font-size: 1.25rem;
   text-underline-offset: 0.5rem;
-  color: black;
+  font-weight: bold;
 }
