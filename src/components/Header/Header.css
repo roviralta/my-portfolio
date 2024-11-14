@@ -30,11 +30,26 @@ header h1 {
 a {
   text-decoration: none;
   color: #333;
+  position: relative;
+  transition: color 0.4s ease; /* Smooth color transition */
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0; /* Position underline below text */
+  width: 100%; /* Full width for the underline */
+  height: 2px;
+  background-color: currentColor; /* Same color as text */
+  transform: scaleX(0); /* Start with underline hidden */
+  transition: transform 0.4s ease; /* Smooth transition for underline */
 }
 
 a:hover {
-  text-decoration: underline;
-  font-size: 1.25rem;
-  text-underline-offset: 0.5rem;
-  font-weight: bold;
+  color: #111;
+}
+
+a:hover::after {
+  transform: scaleX(1); /* Show the underline on hover */
 }

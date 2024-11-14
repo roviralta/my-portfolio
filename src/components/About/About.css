@@ -1,48 +1,102 @@
+/* General Styles */
 #about {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   padding: 2rem;
+  margin-top: -5rem;
+  text-align: center;
 }
 
 .presentation {
-  font-size: 2.5rem;
   line-height: 1.2;
   font-weight: 600;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .intro {
   color: #555;
+  font-size: 3.5rem;
 }
 
 .name {
   color: #222;
+  font-size: 3.5rem;
 }
 
 .role {
   font-size: 2rem;
   color: #333;
-  margin-top: 0.5rem;
+  margin-top: -1rem;
 }
 
+.resume {
+  max-width: 600px;
+  color: #222;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  flex-wrap: wrap; /* Ensure wrapping on smaller screens */
+}
+
+/* Button and Icon Styles */
+#cv {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#cv:hover {
+  background-color: #555;
+}
+
+.icon {
+  color: #333;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #555;
+}
+
+/* Media Query for Larger Screens */
 @media (min-width: 601px) {
-  #about {
-    text-align: center;
-  }
-}
-
-@media (max-width: 600px) {
-  #about {
-    align-items: flex-start; /* Aligns content to the start on smaller screens */
-    padding-top: 1rem; /* Reduces padding for a more compact design */
-  }
-
   .presentation {
-    font-size: 2rem; /* Adjust font size for smaller screens */
+    font-size: 3.5rem;
   }
 
   .role {
-    font-size: 1.2rem; /* Adjust role font size for smaller screens */
+    font-size: 2.5rem;
+  }
+}
+
+/* Media Query for Screens 600px and Below */
+@media (max-width: 600px) {
+  .presentation {
+    font-size: 2rem;
+  }
+
+  .role {
+    font-size: 1.5rem;
+  }
+
+  .resume {
+    font-size: 0.9rem;
   }
 }
