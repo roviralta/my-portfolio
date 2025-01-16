@@ -1,0 +1,14 @@
+#about-button {
+  border: none;
+}
+
+.icon {
+  font-size: 30px; /* Size of the icon */
+  color: black; /* LinkedIn blue */
+  transition: color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.icon:hover {
+  transform: scale(1.4); /* Slight scaling effect */
+}
