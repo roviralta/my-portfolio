@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import pict from "../../data/test.webp";
+import { about } from "../../data/About";
 
 const About = () => {
   return (
@@ -8,16 +9,11 @@ const About = () => {
       <div className="about-me">
         <div className="about-picture">
           <img alt="not me :)" src={pict} id="portfolio-picture" />
-          <h1>Hi, I am Sergi Roviralta.</h1>
+          <h1>Hi, I am {about.name}.</h1>
         </div>
         <div className="about-text">
-          <h3>A Full-Stack Engineer.</h3>
-          <p>
-            Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta
-            facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum
-            delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis!
-            Maiores minima consectetur.
-          </p>
+          <h3>A {about.role}.</h3>
+          <p>{about.description}</p>
         </div>
       </div>
     </section>

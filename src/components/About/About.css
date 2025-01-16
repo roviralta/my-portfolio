@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 3rem 2rem 0 2rem;
+  margin: 2rem 2rem;
 }
 
 .about-me {
@@ -16,7 +16,7 @@
 .about-picture {
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 2em;
   margin-bottom: 2rem;
 }
 
@@ -63,5 +63,26 @@
 
   .about-me p {
     font-size: 0.95rem; /* Slightly smaller text for smaller screens */
+  }
+}
+
+@media (max-width: 400px) {
+  .about-picture {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me h1 {
+    font-size: 1.7rem;
+  }
+
+  .about-me h3 {
+    font-size: 0.8rem;
+  }
+
+  .about-me p {
+    font-size: 0.75rem; /* Slightly smaller text for smaller screens */
   }
 }
