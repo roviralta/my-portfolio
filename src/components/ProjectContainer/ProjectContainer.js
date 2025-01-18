@@ -11,8 +11,9 @@ const ProjectContainer = () => {
           <h1 id="title">Projects</h1>
         </div>
         <div className="iterat-proj">
-          {projects.map((project) => (
+          {projects.map((project, index) => (
             <Project
+              key={index}
               name={project.name}
               description={project.description}
               skills={project.skills_used}

@@ -1,0 +1,28 @@
+#skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 4rem 1rem;
+}
+
+.iterat-skill {
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  #skills {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #skills {
+    font-size: 0.8rem;
+  }
+}

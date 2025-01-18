@@ -36,3 +36,11 @@
     font-size: 0.95rem;
   }
 }
+
+@media (max-width: 400px) {
+  #project {
+    width: 300px;
+    height: 300px;
+    font-size: 0.8rem;
+  }
+}
