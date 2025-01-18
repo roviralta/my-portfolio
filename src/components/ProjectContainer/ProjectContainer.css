@@ -1,5 +1,5 @@
 #projects {
-  margin: 3rem 2rem;
+  margin: 2rem 2rem;
   display: flex;
   flex-direction: column; /* Stack title and projects vertically */
   align-items: center;
