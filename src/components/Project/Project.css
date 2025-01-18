@@ -1,0 +1,37 @@
+#project {
+  width: 350px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 4%;
+  padding: 2rem 2rem;
+}
+
+#project:hover {
+  transform: scale(1.1);
+}
+
+.nameProject {
+  margin-bottom: 2rem;
+}
+
+.project-desc {
+  text-align: justify;
+}
+
+.skills {
+  margin-top: 1rem;
+}
+
+#git-project {
+  border: none;
+}
+
+@media (max-width: 768px) {
+  #project {
+    font-size: 0.95rem;
+  }
+}
