@@ -6,7 +6,10 @@ const Header = () => {
     <header className="header">
       <ul className="header-list">
         <li>
-          <a href="#about">About</a>
+          <a href="#about-me">About me</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
         </li>
         <li>
           <a href="#projects">Projects</a>
