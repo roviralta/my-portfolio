@@ -1,0 +1,50 @@
+#about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 2rem;
+}
+
+.about-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+#about-icon {
+  font-size: 3rem;
+}
+
+.about-me-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  max-width: auto;
+  margin-top: 2rem;
+}
+
+.about-me-desc p {
+  max-width: 600px;
+  text-align: justify;
+}
+
+#profile {
+  width: 250px;
+  border-radius: 30%;
+}
+
+@media (max-width: 768px) {
+  #about-me {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #about-me {
+    font-size: 0.8rem;
+  }
+}

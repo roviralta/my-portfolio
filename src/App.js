@@ -3,7 +3,7 @@ import About from "./components/About/About";
 import ProjectContainer from "./components/ProjectContainer/ProjectContainer";
 import Experience from "./components/Experience/Experience";
 import SkillContainer from "./components/SkillContainer/SkillContainer";
-import "./App.css";
+import AboutMe from "./components/AboutMe/AboutMe";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Experience></Experience>
       <ProjectContainer></ProjectContainer>
       <SkillContainer></SkillContainer>
+      <AboutMe></AboutMe>
     </>
   );
 }

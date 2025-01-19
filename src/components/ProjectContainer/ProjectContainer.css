@@ -1,12 +1,8 @@
 #projects {
-  margin: 2rem 2rem;
+  margin: 0 2rem;
   display: flex;
   flex-direction: column; /* Stack title and projects vertically */
   align-items: center;
-}
-
-.section-title {
-  margin-bottom: 2rem;
 }
 
 #title {
@@ -20,4 +16,5 @@
   align-items: center;
   gap: 3rem;
   flex-wrap: wrap;
+  margin-top: 2rem;
 }
