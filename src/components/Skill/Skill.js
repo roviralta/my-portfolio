@@ -1,12 +1,12 @@
 import React from "react";
 import "./Skill.css";
 
-const Skills = (props) => {
+const Skill = (props) => {
   return (
-    <div className="skill">
-      <p>{props.name}</p>
-    </div>
+    <article className="skill">
+      <p className="skill-name">{props.name}</p>
+    </article>
   );
 };
 
-export default Skills;
+export default Skill;

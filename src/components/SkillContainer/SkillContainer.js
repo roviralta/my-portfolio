@@ -5,13 +5,15 @@ import "./SkillContainer.css";
 
 const SkillContainer = () => {
   return (
-    <section id="skills">
-      <div className="section-title">
-        <h1 id="title">Skills</h1>
-      </div>
-      <div className="iterat-skill">
+    <section id="skills" aria-labelledby="skills-title">
+      <header className="section-title">
+        <h1 id="title">Technical Skills</h1>
+      </header>
+      <div className="iterat-skill" role="list">
         {skills.map((ski, index) => (
-          <Skill name={ski} key={index}></Skill>
+          <div key={index} role="listitem">
+            <Skill name={ski} />
+          </div>
         ))}
       </div>
     </section>

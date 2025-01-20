@@ -7,14 +7,19 @@
   align-items: center;
 }
 
+.skill:hover {
+  background-color: #181616;
+  color: white;
+}
+
 @media (max-width: 768px) {
-  #skill {
+  .skill {
     font-size: 0.95rem;
   }
 }
 
 @media (max-width: 400px) {
-  #skill {
+  .skill {
     font-size: 0.8rem;
   }
 }

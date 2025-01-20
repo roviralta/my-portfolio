@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem 2rem;
+  margin: 2rem;
 }
 
 .about-me {
@@ -33,29 +33,27 @@
   object-fit: cover;
 }
 
-.about-me h1 {
-  font-size: 3rem;
-}
-
 .about-me p {
   max-width: 500px;
   text-align: justify;
+  color: black;
 }
 
 .about-me h3 {
   font-size: 1.5rem;
   margin-bottom: 2rem;
   text-align: center;
+  color: #292828; /* Dark grey for subheadings */
 }
 
 /* Media Query for mobile responsiveness */
 @media (max-width: 768px) {
   .about-picture {
-    margin-bottom: 1rem; /* Less gap between image and text */
+    margin-bottom: 1rem;
   }
 
   #portfolio-picture {
-    width: 120px; /* Smaller image on mobile */
+    width: 120px;
     height: 120px;
   }
 
@@ -68,7 +66,7 @@
   }
 
   .about-me p {
-    font-size: 0.95rem; /* Slightly smaller text for smaller screens */
+    font-size: 0.95rem;
   }
 }
 

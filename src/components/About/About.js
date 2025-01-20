@@ -10,26 +10,36 @@ import resume from "../../data/SergiRoviralta_CV.pdf";
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" aria-labelledby="about-title">
       <div className="about-me">
         <div className="about-picture">
-          <img alt="not me :)" src={pict} id="portfolio-picture" />
-          <h1>Hi, I am {about.name}.</h1>
+          <img
+            src={pict}
+            alt="Illustration representing {about.name}"
+            id="portfolio-picture"
+          />
+          <h1 id="title">Hi, I am {about.name}.</h1>
         </div>
         <div className="about-text">
           <h3>A {about.role}.</h3>
           <p>{about.description}</p>
         </div>
         <div className="about-buttons">
-          {<ResumeButton icon={FaFileArrowDown} link={resume}></ResumeButton>}
+          <ResumeButton
+            icon={FaFileArrowDown}
+            link={resume}
+            aria-label="Download Resume"
+          ></ResumeButton>
           <ResumeButton
             link={about.social.linkedin}
             icon={FaLinkedin}
+            aria-label="Visit LinkedIn Profile"
           ></ResumeButton>
           <ResumeButton
             name="Github"
             link={about.social.github}
             icon={IoLogoGithub}
+            aria-label="Visit Github Profile"
           ></ResumeButton>
         </div>
       </div>

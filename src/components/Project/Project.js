@@ -3,13 +3,19 @@ import "./Project.css";
 import ResumeButton from "../Button/ResumeButton";
 import { IoLogoGithub } from "react-icons/io";
 
-const Project = (props) => {
+const Project = ({ name, description, skills }) => {
   return (
-    <div id="project">
-      <h3 className="nameProject">{props.name}</h3>
-      <p className="project-desc">{props.description}</p>
-      <p className="skills">{props.skills}</p>
-      <ResumeButton link="https://www.google.com/?hl=es" icon={IoLogoGithub} />
+    <div className="project" aria-labelledby={`${name}-title`}>
+      <h3 id={`${name}-title`} className="nameProject">
+        {name}
+      </h3>
+      <p className="project-desc">{description}</p>
+      <p className="skills">{skills}</p>
+      <ResumeButton
+        link="https://www.google.com/?hl=es"
+        icon={IoLogoGithub}
+        aria-label={`View ${name} on GitHub`}
+      />
     </div>
   );
 };
