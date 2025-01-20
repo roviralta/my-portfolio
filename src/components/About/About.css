@@ -15,9 +15,9 @@
 
 .about-picture {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 2em;
-  margin-bottom: 2rem;
 }
 
 .about-buttons {
@@ -59,6 +59,7 @@
 
   .about-me h1 {
     font-size: 2rem;
+    text-align: center;
   }
 
   .about-me h3 {
@@ -70,7 +71,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   .about-picture {
     display: flex;
     flex-wrap: wrap;

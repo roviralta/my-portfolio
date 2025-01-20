@@ -8,11 +8,23 @@
 }
 
 body {
-  background: linear-gradient(to bottom, #b3b4bd, #777c94);
+  background: linear-gradient(to right, #b3b4bd, #777c94);
   color: #000000;
 }
 
 #title {
   font-size: 3rem;
   color: #181616;
+}
+
+@media (max-width: 768px) {
+  #title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 440px) {
+  #title {
+    font-size: 2.3rem;
+  }
 }

@@ -21,3 +21,12 @@
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+@media (max-width: 768px) {
+  #contact {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    font-size: 0.7rem;
+  }
+}

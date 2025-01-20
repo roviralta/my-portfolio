@@ -64,7 +64,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   .exp {
     display: flex;
     flex-wrap: wrap;
