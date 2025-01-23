@@ -16,6 +16,7 @@ const Project = ({ name, description, skills }) => {
         icon={IoLogoGithub}
         aria-label={`View ${name} on GitHub`}
       />
+      Github
     </div>
   );
 };

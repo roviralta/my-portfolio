@@ -6,11 +6,12 @@
 
 .icon {
   font-size: 30px;
-  color: black;
+  color: #222222;
   transition: color 0.3s ease, transform 0.2s ease;
   cursor: pointer;
 }
 
 .icon:hover {
   transform: scale(1.4);
+  color: #000000;
 }

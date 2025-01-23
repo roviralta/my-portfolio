@@ -35,12 +35,12 @@ const About = () => {
             icon={FaLinkedin}
             aria-label="Visit LinkedIn Profile"
           ></ResumeButton>
-          <ResumeButton
+          {/*  <ResumeButton
             name="Github"
             link={about.social.github}
             icon={IoLogoGithub}
             aria-label="Visit Github Profile"
-          ></ResumeButton>
+          ></ResumeButton> */}
         </div>
       </div>
     </section>

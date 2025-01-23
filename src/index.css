@@ -8,13 +8,20 @@
 }
 
 body {
-  background: linear-gradient(to right, #b3b4bd, #777c94);
-  color: #000000;
+  background: #ffffff;
 }
 
 #title {
   font-size: 3rem;
-  color: #181616;
+  background: linear-gradient(90deg, #000000, #4a4a4a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+p {
+  color: #4a4a4a;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {

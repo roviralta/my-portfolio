@@ -36,14 +36,13 @@
 .about-me p {
   max-width: 500px;
   text-align: justify;
-  color: black;
 }
 
 .about-me h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
   text-align: center;
-  color: #292828; /* Dark grey for subheadings */
+  color: #222222; /* Dark grey for subheadings */
 }
 
 /* Media Query for mobile responsiveness */
@@ -63,7 +62,7 @@
   }
 
   .about-me h3 {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
 
   .about-me p {
