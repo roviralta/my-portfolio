@@ -1,50 +1,50 @@
 .project {
-  width: 350px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border: 2px solid black;
-  border-radius: 4%;
-  padding: 2rem 2rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease,
-    background-color 0.3s ease;
+	width: 350px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border: 2px solid black;
+	border-radius: 4%;
+	padding: 2rem 2rem;
+	transition: transform 0.3s ease, box-shadow 0.3s ease,
+		background-color 0.3s ease;
 }
 
 .project:hover {
-  transform: scale(1.1);
-  background-color: rgba(32, 32, 32, 0.05);
-  cursor: pointer;
+	transform: scale(1.1);
+	background-color: rgba(32, 32, 32, 0.05);
+	cursor: pointer;
 }
 
 .nameProject {
-  margin-bottom: 1.5rem;
-  text-align: center;
-  color: #222222;
+	margin-bottom: 1.5rem;
+	text-align: center;
+	color: #222222;
 }
 
 .project-desc {
-  text-align: justify;
-  font-size: 0.9rem;
+	text-align: justify;
+	font-size: 0.9rem;
 }
 
 .skills {
-  margin: 1rem 0;
-  color: #222222;
-  font-weight: bold;
+	margin: 1rem 0;
+	color: #222222;
+	font-weight: bold;
 }
 
 @media (max-width: 768px) {
-  .project {
-    font-size: 0.95rem;
-  }
+	.project {
+		font-size: 0.95rem;
+	}
 }
 
 @media (max-width: 440px) {
-  .roject {
-    width: 300px;
-    height: 300px;
-    font-size: 0.8rem;
-  }
+	.project {
+		width: 300px;
+		height: 400px;
+		font-size: 0.8rem;
+	}
 }
