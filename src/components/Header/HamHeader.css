@@ -1,0 +1,35 @@
+.ham-menu-list {
+	display: none;
+	position: absolute;
+	top: 3rem;
+	right: 0;
+	background: white;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	padding: 1rem;
+	margin: 0 1rem;
+	text-align: center;
+}
+
+.ham-menu-list.open {
+	display: flex;
+}
+
+.ham-menu-list ul {
+	list-style: none;
+}
+
+.ham-menu-list li {
+	margin-bottom: 1rem;
+}
+
+.ham-menu-list a {
+	text-decoration: none;
+	color: #4a4a4a;
+	font-weight: 600;
+	transition: color 0.2s ease;
+}
+
+.ham-menu-list a:hover {
+	color: #000;
+}
