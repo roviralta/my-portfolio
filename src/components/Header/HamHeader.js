@@ -32,6 +32,11 @@ const HamHeader = () => {
 						</a>
 					</li>
 					<li>
+						<a href='#skills' onClick={toggleMenu}>
+							Skills
+						</a>
+					</li>
+					<li>
 						<a href='#contact' onClick={toggleMenu}>
 							Contact
 						</a>

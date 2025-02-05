@@ -13,6 +13,8 @@
 
 .ham-menu-list.open {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .ham-menu-list ul {

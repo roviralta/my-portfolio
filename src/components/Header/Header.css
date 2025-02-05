@@ -1,15 +1,32 @@
 .header {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
-	height: 5rem;
-	margin: 0 2rem;
+	height: 3rem;
+	margin: 1rem auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #faf7f7;
+	border-radius: 8px;
+	width: 700px;
 }
 
 nav {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	gap: 5rem;
+}
+
+.icon-button {
+	cursor: pointer;
+	transition: font-size 0.2s ease;
+}
+
+.icon-button:hover {
+	font-size: 2rem;
 }
 
 .header-list {
@@ -51,5 +68,7 @@ nav {
 
 	.ham-menu {
 		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 }
