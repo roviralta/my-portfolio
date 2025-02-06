@@ -1,30 +1,32 @@
 .skill {
-  width: 100px;
-  height: 50px;
-  border: 3px solid #000000;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: color 0.2s ease, background-color 0.2s ease;
+	width: 100px;
+	height: 50px;
+	border: 3px solid #000000;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: color 0.2s ease, background-color 0.2s ease;
 }
 
 .skill:hover {
-  background-color: #2d2d2d;
+	background-color: #faf7f7;
+	cursor: pointer;
+	transform: scale(1.3);
 }
 
 .skill:hover p {
-  color: white;
+	color: black;
 }
 
 @media (max-width: 768px) {
-  .skill {
-    font-size: 0.95rem;
-  }
+	.skill {
+		font-size: 0.95rem;
+	}
 }
 
 @media (max-width: 440px) {
-  .skill {
-    font-size: 0.8rem;
-  }
+	.skill {
+		font-size: 0.8rem;
+	}
 }

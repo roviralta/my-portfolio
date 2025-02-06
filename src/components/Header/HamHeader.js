@@ -10,7 +10,13 @@ const HamHeader = () => {
 	}
 
 	return (
-		<div className='ham-container'>
+		<header className='ham-container'>
+			<h1
+				className='icon-button'
+				onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+			>
+				SR
+			</h1>
 			<div className='ham-button' onClick={toggleMenu}>
 				{isOpen ? <IoClose size={30} /> : <IoMenu size={30} />}
 			</div>
@@ -43,7 +49,7 @@ const HamHeader = () => {
 					</li>
 				</ul>
 			</nav>
-		</div>
+		</header>
 	)
 }
 

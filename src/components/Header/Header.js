@@ -1,44 +1,24 @@
-import React from 'react'
-import './Header.css'
+import React, { useState, useEffect } from 'react'
 import HamHeader from './HamHeader'
+import NormHeader from './NormHeader'
+import './Header.css'
 
 const Header = () => {
-	return (
-		<>
-			<header className='header'>
-				<nav>
-					<h1
-						className='icon-button'
-						onClick={() =>
-							window.scrollTo({ top: 0, behavior: 'smooth' })
-						}
-					>
-						SR
-					</h1>
-					<ul className='header-list'>
-						<li>
-							<a href='#about-me'>About me</a>
-						</li>
-						<li>
-							<a href='#experience'>Experience</a>
-						</li>
-						<li>
-							<a href='#projects'>Projects</a>
-						</li>
-						<li>
-							<a href='#skills'>Skills</a>
-						</li>
-						<li>
-							<a href='#contact'>Contact</a>
-						</li>
-					</ul>
-					<div className='ham-menu'>
-						<HamHeader></HamHeader>
-					</div>
-				</nav>
-			</header>
-		</>
-	)
+	const [isHam, setIsHam] = useState(window.innerWidth <= 700)
+
+	useEffect(() => {
+		const handleResize = () => {
+			setIsHam(window.innerWidth <= 700)
+		}
+
+		window.addEventListener('resize', handleResize)
+
+		return () => {
+			window.removeEventListener('resize', handleResize)
+		}
+	}, [])
+
+	return <div>{isHam ? <HamHeader /> : <NormHeader />}</div>
 }
 
 export default Header
