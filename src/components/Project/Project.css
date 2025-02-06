@@ -44,7 +44,7 @@
 @media (max-width: 440px) {
 	.project {
 		width: 300px;
-		height: 400px;
+		height: auto;
 		font-size: 0.8rem;
 	}
 }

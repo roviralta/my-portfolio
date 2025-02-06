@@ -45,8 +45,7 @@
 	color: #222222; /* Dark grey for subheadings */
 }
 
-/* Media Query for mobile responsiveness */
-@media (max-width: 813px) {
+@media (max-width: 820px) {
 	#about {
 		margin: 1rem;
 	}
