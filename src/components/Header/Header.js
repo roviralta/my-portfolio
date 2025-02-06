@@ -4,11 +4,11 @@ import NormHeader from './NormHeader'
 import './Header.css'
 
 const Header = () => {
-	const [isHam, setIsHam] = useState(window.innerWidth <= 700)
+	const [isHam, setIsHam] = useState(window.innerWidth <= 650)
 
 	useEffect(() => {
 		const handleResize = () => {
-			setIsHam(window.innerWidth <= 700)
+			setIsHam(window.innerWidth <= 650)
 		}
 
 		window.addEventListener('resize', handleResize)

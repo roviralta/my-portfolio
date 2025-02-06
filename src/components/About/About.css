@@ -46,7 +46,11 @@
 }
 
 /* Media Query for mobile responsiveness */
-@media (max-width: 815px) {
+@media (max-width: 813px) {
+	#about {
+		margin: 1rem;
+	}
+
 	.about-picture {
 		margin-bottom: 1rem;
 	}
@@ -67,6 +71,7 @@
 
 	.about-me p {
 		font-size: 0.95rem;
+		margin: 0 1rem;
 	}
 }
 

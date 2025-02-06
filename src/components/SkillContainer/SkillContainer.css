@@ -1,29 +1,30 @@
 #skills {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 4rem 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 4rem 2rem;
+	scroll-margin-top: 4rem;
 }
 
 .iterat-skill {
-  max-width: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 2rem;
-  margin-top: 2rem;
+	max-width: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 2rem;
+	margin-top: 2rem;
 }
 
 @media (max-width: 768px) {
-  #skills {
-    font-size: 0.95rem;
-  }
+	#skills {
+		font-size: 0.95rem;
+	}
 }
 
 @media (max-width: 440px) {
-  #skills {
-    font-size: 0.8rem;
-  }
+	#skills {
+		font-size: 0.8rem;
+	}
 }
