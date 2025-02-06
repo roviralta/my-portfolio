@@ -7,9 +7,13 @@
 	font-family: 'Poppins', sans-serif;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background: #ffffff;
-	padding-top: 5rem; /* Adjust based on the height of your header */
+	padding-top: 5rem;
 }
 
 #title {

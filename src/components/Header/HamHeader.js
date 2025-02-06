@@ -43,7 +43,10 @@ const HamHeader = () => {
 						</a>
 					</li>
 					<li>
-						<a href='#contact' onClick={toggleMenu}>
+						<a
+							href='mailto:sergirovisu74@gmail.com'
+							onClick={toggleMenu}
+						>
 							Contact
 						</a>
 					</li>

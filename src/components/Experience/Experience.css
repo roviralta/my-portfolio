@@ -67,6 +67,10 @@
 }
 
 @media (max-width: 440px) {
+	#experience {
+		margin-bottom: 1rem;
+	}
+
 	.exp {
 		display: flex;
 		flex-wrap: wrap;

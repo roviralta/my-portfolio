@@ -28,7 +28,7 @@ const NormHeader = () => {
 							<a href='#skills'>Skills</a>
 						</li>
 						<li>
-							<a href='#contact'>Contact</a>
+							<a href='mailto:sergirovisu74@gmail.com'>Contact</a>
 						</li>
 					</ul>
 				</nav>

@@ -1,13 +1,13 @@
 const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: "Sergi Roviralta",
-  role: "Full Stack Developer",
-  description:
-    "Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.",
-  social: {
-    linkedin: "https://www.linkedin.com/in/sroviralta/",
-    github: "https://github.com/roviralta",
-  },
-};
+	// all the properties are optional - can be left empty or deleted
+	name: 'Sergi Roviralta',
+	role: 'Full Stack Developer',
+	description:
+		'Computer Science Engineer and aspiring Full Stack Developer with experience in hybrid apps and languages like C, Java, Python, and JavaScript. Passionate about learning, innovation, and delivering high-quality solutions. Open to collaboration on impactful projects.',
+	social: {
+		linkedin: 'https://www.linkedin.com/in/sroviralta/',
+		github: 'https://github.com/roviralta',
+	},
+}
 
-export { about };
+export { about }
