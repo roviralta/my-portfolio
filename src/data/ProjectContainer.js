@@ -1,43 +1,24 @@
-const projects = [
-  {
-    name: "EcoTrack - Sustainability Dashboard",
-    description:
-      "A web app that allows users to track their carbon footprint by logging daily activities such as transportation, energy use, and food consumption. The app provides insights, tips for reducing impact, and progress tracking.",
-    skills_used: [
-      "React",
-      "Node.js",
-      "MongoDB",
-      "Chart.js",
-      "REST APIs",
-      "CSS",
-    ],
-  },
-  {
-    name: "ArtHive - Online Art Community",
-    description:
-      "A platform for artists to showcase their work, interact with other creatives, and sell art. Features include customizable portfolios, messaging, event announcements, and an integrated payment gateway for purchases.",
-    skills_used: [
-      "Angular",
-      "Firebase",
-      "Stripe API",
-      "Sass",
-      "TypeScript",
-      "WebSockets",
-    ],
-  },
-  {
-    name: "MealPlanner Pro",
-    description:
-      "A meal planning and grocery list web application that uses AI to generate personalized meal plans based on dietary preferences, calorie goals, and available ingredients. It includes recipe recommendations and shopping list exports.",
-    skills_used: [
-      "Vue.js",
-      "Python (Flask)",
-      "MySQL",
-      "OpenAI API",
-      "Tailwind CSS",
-      "JWT Authentication",
-    ],
-  },
-];
+import react from './ImagesSkills/react.png'
+import sol from './ImagesSkills/sol.webp'
+import type from './ImagesSkills/type.webp'
+import vue from './ImagesSkills/vue.png'
+import ionic from './ImagesSkills/Ionic_Logo.svg.png'
 
-export { projects };
+const projects = [
+	{
+		name: 'Hybrid Gallery App',
+		description:
+			"A cross-platform app to capture photos using the device's native camera, save them locally, and display them in a gallery. Built with Ionic and Vue.js, it uses Capacitor plugins for native functionality.",
+		skills_used: [vue, ionic, type],
+		link: 'https://github.com/roviralta/IonicApp-STW',
+	},
+	{
+		name: 'Hybrid Voting App with Blockchain',
+		description:
+			'A secure, decentralized voting app where users can cast votes in elections using blockchain technology. Built with Ionic and React for the frontend, and Solidity smart contracts on Ethereum for vote integrity',
+		skills_used: [react, ionic, sol, type],
+		link: 'https://github.com/roviralta/vottingApp',
+	},
+]
+
+export { projects }

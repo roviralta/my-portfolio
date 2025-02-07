@@ -3,8 +3,8 @@ import './About.css'
 import pict from '../../data/test2.webp'
 import { about } from '../../data/About'
 import ResumeButton from '../Button/ResumeButton'
-import { FaLinkedin } from 'react-icons/fa'
-import { FaFileArrowDown } from 'react-icons/fa6'
+import { RiLinkedinBoxLine } from 'react-icons/ri'
+import { TbFileCv } from 'react-icons/tb'
 import resume from '../../data/SergiRoviralta_CV.pdf'
 
 const About = () => {
@@ -25,21 +25,17 @@ const About = () => {
 				</div>
 				<div className='about-buttons'>
 					<ResumeButton
-						icon={FaFileArrowDown}
+						descr='CV'
+						icon={TbFileCv}
 						link={resume}
 						aria-label='Download Resume'
 					></ResumeButton>
 					<ResumeButton
+						descr='Linkedin'
 						link={about.social.linkedin}
-						icon={FaLinkedin}
+						icon={RiLinkedinBoxLine}
 						aria-label='Visit LinkedIn Profile'
 					></ResumeButton>
-					{/*  <ResumeButton
-            name="Github"
-            link={about.social.github}
-            icon={IoLogoGithub}
-            aria-label="Visit Github Profile"
-          ></ResumeButton> */}
 				</div>
 			</div>
 		</section>

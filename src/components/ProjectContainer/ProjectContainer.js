@@ -16,6 +16,7 @@ const ProjectContainer = () => {
 						name={project.name}
 						description={project.description}
 						skills={project.skills_used}
+						link={project.link}
 					/>
 				))}
 			</div>
