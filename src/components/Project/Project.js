@@ -11,8 +11,9 @@ const Project = ({ name, description, skills, link }) => {
 			</h3>
 			<p className='project-desc'>{description}</p>
 			<div className='skills'>
-				{skills.map((skill) => (
+				{skills.map((skill, i) => (
 					<img
+						key={i}
 						id='skill'
 						src={skill}
 						alt='Skill of the project'

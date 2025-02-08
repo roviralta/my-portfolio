@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import pict from '../../data/test2.webp'
+import pict from '../../data/image.png'
 import { about } from '../../data/About'
 import ResumeButton from '../Button/ResumeButton'
 import { RiLinkedinBoxLine } from 'react-icons/ri'
