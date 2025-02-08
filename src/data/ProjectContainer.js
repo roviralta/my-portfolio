@@ -17,7 +17,7 @@ const projects = [
 		description:
 			'A secure, decentralized voting app where users can cast votes in elections using blockchain technology. Built with Ionic and React for the frontend, and Solidity smart contracts on Ethereum for vote integrity',
 		skills_used: [react, ionic, sol, type],
-		link: 'https://github.com/roviralta/vottingApp',
+		link: 'https://github.com/roviralta/vottingApp/tree/master',
 	},
 ]
 
