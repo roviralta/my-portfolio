@@ -34,8 +34,9 @@
 }
 
 #profile {
-	width: 250px;
-	border-radius: 30%;
+	width: 200px;
+	border-radius: 75px;
+	object-fit: cover;
 }
 
 @media (max-width: 768px) {

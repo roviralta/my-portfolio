@@ -1,6 +1,6 @@
 import React from 'react'
 import './AboutMe.css'
-import profile from '../../data/test.webp'
+import profile from '../../data/aboutme.webp'
 import { descr } from '../../data/AboutMe'
 import { BsPersonCircle } from 'react-icons/bs'
 
