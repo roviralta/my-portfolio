@@ -28,6 +28,7 @@ const Experience = () => {
 									)}
 									{exp.name}
 								</h3>
+								<h5>{exp.company}</h5>
 								<h5>{exp.time}</h5>
 							</div>
 							<div className='descr-exp'>

@@ -1,16 +1,18 @@
 const experience = [
-  {
-    name: "Software Engineer",
-    time: "June 2020 - Present",
-    description:
-      "Developed and maintained web applications using modern frameworks. Collaborated with cross-functional teams to design scalable solutions. Led code reviews and optimized application performance.",
-  },
-  {
-    name: "Junior Web Developer",
-    time: "January 2018 - May 2020",
-    description:
-      "Assisted in creating responsive websites. Debugged and resolved technical issues. Supported the development team in implementing front-end features.",
-  },
-];
+	{
+		name: 'Functional Analyst IT',
+		company: 'Transpais S.A',
+		time: 'May 2024 - Present',
+		description:
+			'Responsible for the computer systems required to meet the needs of the organization. Studying the existing systems in place and look up appropriate updates to the current technologies.',
+	},
+	{
+		name: 'Mobile Application Developer',
+		company: 'Surf the Web',
+		time: 'July 2022 - August 2022',
+		description:
+			'Internship developing a hybrid application for Android and iOS using Ionic Framework. I worked on UI design, API integration, and optimizing performance across both platforms.',
+	},
+]
 
-export { experience };
+export { experience }
