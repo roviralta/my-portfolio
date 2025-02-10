@@ -1,8 +1,8 @@
-import react from './ImagesSkills/react.png'
+import react from './ImagesSkills/react.webp'
 import sol from './ImagesSkills/sol.webp'
 import type from './ImagesSkills/type.webp'
-import vue from './ImagesSkills/vue.png'
-import ionic from './ImagesSkills/Ionic_Logo.svg.png'
+import vue from './ImagesSkills/vue.webp'
+import ionic from './ImagesSkills/Ionic_Logo.svg.webp'
 
 const projects = [
 	{

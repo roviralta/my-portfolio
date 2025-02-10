@@ -35,6 +35,7 @@
 
 #profile {
 	width: 200px;
+	height: auto;
 	border-radius: 75px;
 	object-fit: cover;
 }
