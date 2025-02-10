@@ -29,18 +29,18 @@
 
 #wotk-icon {
 	margin-right: 0.5rem;
-	color: #222222;
+	color: var(--subheading-color);
 }
 
 .info-exp h3 {
 	margin-bottom: 0.5rem;
 	display: flex;
 	align-items: center;
-	color: #222222;
+	color: var(--subheading-color);
 }
 
 .info-exp h5 {
-	color: #222222;
+	color: var(--subheading-color);
 }
 
 .exp p {
@@ -51,7 +51,6 @@
 	font-size: 4rem;
 }
 
-/* Media Query for mobile responsiveness */
 @media (max-width: 768px) {
 	.exp h3 {
 		font-size: 0.95rem;

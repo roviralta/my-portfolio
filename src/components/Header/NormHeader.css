@@ -8,10 +8,10 @@
 	top: 0;
 	left: 0;
 	right: 0;
-	background-color: #faf7f7;
+	background-color: var(--header-background);
 	border-radius: 20px;
 	width: 600px;
-	border: 1px solid #000000;
+	border: 1px solid var(--header-color);
 	z-index: 1000;
 }
 
@@ -25,6 +25,7 @@ nav {
 .icon-button {
 	cursor: pointer;
 	transition: font-size 0.2s ease;
+	color: var(--header-color);
 }
 
 .icon-button:hover {
@@ -45,7 +46,7 @@ nav {
 
 .header-list a {
 	text-decoration: none;
-	color: #4a4a4a;
+	color: var(--text-color);
 	font-size: 1rem;
 	font-weight: 600;
 	transition: color 0.2s ease, font-size 0.2s ease, font-weight 0.2s ease;
@@ -56,5 +57,5 @@ nav {
 	font-size: 1.1rem;
 	text-decoration: underline;
 	text-underline-offset: 0.3rem;
-	color: #000000;
+	color: var(--header-color);
 }
