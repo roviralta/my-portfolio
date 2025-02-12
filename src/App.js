@@ -5,17 +5,20 @@ import Experience from './components/Experience/Experience'
 import SkillContainer from './components/SkillContainer/SkillContainer'
 import AboutMe from './components/AboutMe/AboutMe'
 import Contact from './components/Contact/Contact'
+import './index.css'
 
 function App() {
 	return (
 		<>
-			<Header></Header>
-			<About></About>
-			<Experience></Experience>
-			<ProjectContainer></ProjectContainer>
-			<SkillContainer></SkillContainer>
-			<AboutMe></AboutMe>
-			<Contact></Contact>
+			<main>
+				<Header></Header>
+				<About></About>
+				<Experience></Experience>
+				<ProjectContainer></ProjectContainer>
+				<SkillContainer></SkillContainer>
+				<AboutMe></AboutMe>
+				<Contact></Contact>
+			</main>
 		</>
 	)
 }

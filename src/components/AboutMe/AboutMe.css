@@ -16,6 +16,7 @@
 
 #about-icon {
 	font-size: 3rem;
+	color: var(--header-color);
 }
 
 .about-me-desc {
