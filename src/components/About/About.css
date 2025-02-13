@@ -60,7 +60,6 @@
 	}
 
 	.about-me h1 {
-		font-size: 2rem;
 		text-align: center;
 	}
 
@@ -80,10 +79,6 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
-	}
-
-	.about-me h1 {
-		font-size: 1.7rem;
 	}
 
 	.about-me h3 {
