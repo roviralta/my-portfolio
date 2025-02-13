@@ -7,7 +7,7 @@
 	top: 0;
 	left: 0;
 	right: 0;
-	background-color: var(--white-color);
+	background-color: var(--header-background);
 	border-bottom: 1px solid var(--header-secundary);
 	z-index: 1000;
 	padding: 0.5rem 1.5rem;
@@ -18,7 +18,7 @@
 	position: absolute;
 	top: 3rem;
 	right: 0;
-	background: var(--white-color);
+	background: var(--header-background);
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 	border-radius: 8px;
 	padding: 1rem;
@@ -45,12 +45,19 @@
 	transition: font-size 0.2s ease;
 }
 
+.ham-button {
+	color: var(--header-color);
+}
+
 .icon-button:hover {
 	font-size: 2rem;
 }
 
 .ham-menu-list li {
 	margin-bottom: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .ham-menu-list a {

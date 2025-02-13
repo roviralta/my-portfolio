@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { IoMenu, IoClose } from 'react-icons/io5'
 import './HamHeader.css'
+import ThemeButton from '../ThemeButton/ThemeButton'
 
 const HamHeader = () => {
 	const [isOpen, setIsOpen] = useState(false)
@@ -49,6 +50,9 @@ const HamHeader = () => {
 						>
 							Contact
 						</a>
+					</li>
+					<li>
+						<ThemeButton></ThemeButton>
 					</li>
 				</ul>
 			</nav>

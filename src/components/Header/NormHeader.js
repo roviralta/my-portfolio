@@ -1,5 +1,6 @@
 import React from 'react'
 import './NormHeader.css'
+import ThemeButton from '../ThemeButton/ThemeButton'
 
 const NormHeader = () => {
 	return (
@@ -31,6 +32,7 @@ const NormHeader = () => {
 							<a href='mailto:sergirovisu74@gmail.com'>Contact</a>
 						</li>
 					</ul>
+					<ThemeButton></ThemeButton>
 				</nav>
 			</header>
 		</>

@@ -10,7 +10,7 @@
 	right: 0;
 	background-color: var(--header-background);
 	border-radius: 20px;
-	width: 600px;
+	width: 660px;
 	border: 1px solid var(--header-color);
 	z-index: 1000;
 }
@@ -37,7 +37,7 @@ nav {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	gap: 2rem;
+	gap: 1rem;
 }
 
 .header-list li {
