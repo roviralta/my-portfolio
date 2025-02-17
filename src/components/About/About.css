@@ -27,8 +27,8 @@
 }
 
 #portfolio-picture {
-	width: 150px;
-	height: 170px;
+	width: 130px;
+	height: 130px;
 	border-radius: 40%;
 	object-fit: cover;
 }

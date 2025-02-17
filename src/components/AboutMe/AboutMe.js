@@ -11,17 +11,13 @@ const AboutMe = () => {
 				<BsPersonCircle id='about-icon' />
 				<h1 id='title'>About me</h1>
 			</div>
-			<div className='about-me-desc'>
-				<p>
-					{descr.part1}
-					<br></br>
-					<br></br>
-					{descr.part2}
-					<br></br>
-					<br></br> {descr.part3}
-					<br></br>
-					<br></br> {descr.part4}
-				</p>
+			<div className='image-about'>
+				<div className='about-me-desc'>
+					<p> {descr.part1}</p>
+					<p> {descr.part2}</p>
+					<p> {descr.part3}</p>
+					<p> {descr.part4}</p>
+				</div>
 				<img src={profile} alt='not me another time' id='profile'></img>
 			</div>
 		</section>
