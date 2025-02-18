@@ -20,7 +20,7 @@ const About = () => {
 					<h1 id='title'>Hi, I am {about.name}.</h1>
 				</div>
 				<div className='about-text'>
-					<h3>A {about.role}.</h3>
+					<h3>{about.role}.</h3>
 					<p>{about.description}</p>
 				</div>
 				<div className='about-buttons'>
