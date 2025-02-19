@@ -8,7 +8,7 @@
 	justify-content: center;
 	align-items: center;
 	gap: 0.5rem;
-	color: var(--header-secundary);
+	color: var(--subheading-color);
 }
 
 .icon {
@@ -24,4 +24,3 @@
 		color: var(--white-color);
 	}
 }
-
