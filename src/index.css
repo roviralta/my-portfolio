@@ -30,10 +30,16 @@ html {
 	scroll-behavior: smooth;
 }
 
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: bold;
+	font-weight: 700;
+	font-display: swap;
+	src: url('../public/fonts/Ubuntu-Regular.woff2') format('woff2');
+}
+
 body {
 	font-family: 'Ubuntu', serif;
-	font-weight: 700;
-	font-style: normal;
 	background: var(--white-color);
 	padding-top: 5rem;
 }

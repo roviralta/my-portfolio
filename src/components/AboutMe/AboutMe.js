@@ -1,6 +1,6 @@
 import React from 'react'
 import './AboutMe.css'
-import profile from '../../data/aboutme.webp'
+import profile from '../../data/aboutme.avif'
 import { descr } from '../../data/AboutMe'
 import { BsPersonCircle } from 'react-icons/bs'
 
@@ -18,7 +18,12 @@ const AboutMe = () => {
 					<p> {descr.part3}</p>
 					<p> {descr.part4}</p>
 				</div>
-				<img src={profile} alt='not me another time' id='profile'></img>
+				<img
+					src={profile}
+					alt='not me another time'
+					id='profile'
+					loading='lazy'
+				></img>
 			</div>
 		</section>
 	)

@@ -17,6 +17,7 @@ const Project = ({ name, description, skills, link }) => {
 						id='skill'
 						src={skill}
 						alt='Skill of the project'
+						loading='lazy'
 					></img>
 				))}
 			</div>
