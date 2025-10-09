@@ -1,8 +1,14 @@
 const experience = [
 	{
+		name: 'Java Test Automation Developer',
+		company: 'T-Systems International',
+		time: 'Present',
+		description: 'Building and maintaining automated tests, ensuring software quality through test frameworks, CI/CD integration, and global collaboration.'
+	},
+	{
 		name: 'Functional Analyst IT',
 		company: 'Transpais S.A',
-		time: 'May 2024 - Present',
+		time: 'May 2024 - Setember 2025',
 		description:
 			'Responsible for the computer systems required to meet the needs of the organization. Studying the existing systems in place and look up appropriate updates to the current technologies.',
 	},
