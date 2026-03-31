@@ -1,15 +1,16 @@
 const skills = [
-  "HTML",
-  "JavaScript",
-  "CSS",
-  "React",
-  "Node",
-  "Express",
-  "Ionic",
-  "SQL",
-  "TypeScript",
-  "Linux",
-  "Git",
-];
+	'Java',
+	'SQL',
+	'SpringBoot',
+	'JUnit',
+	'Jira',
+	'Git',
+	'Linux',
+	'React',
+	'Node',
+	'Express',
+	'JavaScript',
+	'TypeScript',
+]
 
-export { skills };
+export { skills }

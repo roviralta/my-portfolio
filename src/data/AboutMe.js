@@ -1,11 +1,11 @@
 const descr = {
-  part1: "💻 Computer Science Engineer | 🚀 Aspiring Full Stack Developer",
-  part2:
-    "I have experience developing hybrid applications and working with a diverse set of programming languages, including C, Java, Python, and JavaScript. I am always eager to learn new technologies and programming languages to adapt to project needs and deliver user-focused solutions.",
-  part3:
-    "I am passionate about creating innovative solutions and delivering high-quality results. I thrive in environments that challenge me to grow, learn, and contribute meaningfully to impactful projects. 🌱✨",
-  part4:
-    "🤝 Let's connect to explore how we can collaborate to achieve shared goals! 🌍",
-};
+	part1: '💻 Computer Science Engineer | 🧑‍💻 Backend Developer',
 
-export { descr };
+	part2: 'I am currently working in an international team as a Testing Engineer, focusing on ensuring software quality, reliability, and performance in complex systems. At the same time, I actively contribute as a Backend Developer, building and maintaining scalable services and APIs.',
+
+	part3: 'I have experience working with multiple technologies including Java, Python, JavaScript, and C. I enjoy designing robust backend architectures and improving system efficiency through clean, maintainable code.',
+
+	part4: 'I am passionate about software engineering, continuous learning, and collaborating with global teams to deliver high-quality, impactful solutions. 🤝🌍',
+}
+
+export { descr }

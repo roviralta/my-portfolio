@@ -3,7 +3,7 @@ const about = {
 	name: 'Sergi Roviralta',
 	role: 'Junior Software Engineer',
 	description:
-		'Computer Science Engineer and aspiring Full Stack Developer with experience in hybrid apps and languages like C, Java, Python, and JavaScript.',
+		'Computer Science Engineer and Backend Developer working in an international team as a Testing Engineer, with experience in hybrid applications and languages such as C, Java, Python, and JavaScript.',
 	social: {
 		linkedin: 'https://www.linkedin.com/in/sroviralta/',
 		github: 'https://github.com/roviralta',
