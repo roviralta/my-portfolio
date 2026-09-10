@@ -20,25 +20,73 @@
 	color: var(--heading) !important;
 }
 
-.about-me-figure {
+/* ---------- neofetch card ---------- */
+
+.about-me-card {
 	position: relative;
 	border-radius: var(--radius);
-	overflow: hidden;
 	border: 1px solid var(--border);
 	background: var(--surface);
+	padding: 20px 22px;
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 0.85rem;
+	overflow: hidden;
 }
 
-.about-me-figure::after {
+.about-me-card::after {
 	content: '';
 	position: absolute;
 	inset: 0;
 	border-radius: var(--radius);
 	box-shadow: inset 0 0 0 1px transparent;
 	transition: box-shadow 0.3s ease;
+	pointer-events: none;
 }
 
-.about-me-figure:hover::after {
+.about-me-card:hover::after {
 	box-shadow: inset 0 0 0 2px var(--accent);
+}
+
+.about-me-card-head {
+	display: flex;
+	gap: 10px;
+	align-items: baseline;
+	padding-bottom: 14px;
+	margin-bottom: 12px;
+	border-bottom: 1px dashed var(--border);
+	color: var(--text-muted);
+}
+
+.about-me-card-user {
+	color: var(--accent);
+	font-weight: 600;
+	white-space: nowrap;
+}
+
+.about-me-card-sep {
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.about-me-spec {
+	margin: 0;
+}
+
+.about-me-row {
+	display: grid;
+	grid-template-columns: 118px 1fr;
+	gap: 12px;
+	line-height: 1.9;
+}
+
+.about-me-row dt {
+	color: var(--text-muted);
+	overflow: hidden;
+}
+
+.about-me-row dd {
+	margin: 0;
+	color: var(--text);
 }
 
 @media (max-width: 760px) {

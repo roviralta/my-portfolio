@@ -4,7 +4,7 @@
 
 .timeline-item {
 	display: grid;
-	grid-template-columns: 170px 32px 1fr;
+	grid-template-columns: 210px 32px 1fr;
 	gap: 12px;
 	align-items: start;
 }
@@ -76,7 +76,7 @@
 	font-family: 'JetBrains Mono', monospace;
 	font-size: 0.82rem;
 	color: var(--text-muted);
-	white-space: nowrap;
+	line-height: 1.45;
 }
 
 .timeline-role {
