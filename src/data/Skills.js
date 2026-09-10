@@ -1,16 +1,8 @@
 const skills = [
-	'Java',
-	'SQL',
-	'SpringBoot',
-	'JUnit',
-	'Jira',
-	'Git',
-	'Linux',
-	'React',
-	'Node',
-	'Express',
-	'JavaScript',
-	'TypeScript',
+	{ group: 'Backend', items: ['Java', 'SpringBoot', 'Node', 'Express', 'SQL', 'JUnit'] },
+	{ group: 'Languages', items: ['JavaScript', 'TypeScript'] },
+	{ group: 'Frontend', items: ['React'] },
+	{ group: 'DevOps & Tools', items: ['Git', 'Linux', 'Jira'] },
 ]
 
 export { skills }

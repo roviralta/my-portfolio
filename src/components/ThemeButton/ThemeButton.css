@@ -1,13 +1,15 @@
 #theme {
 	border: none;
-	background-color: transparent;
-	font-size: 1.5rem;
-	display: flex;
-	color: var(--header-color);
+	background: transparent;
+	font-size: 1.3rem;
+	display: inline-flex;
+	align-items: center;
+	color: var(--text);
+	cursor: pointer;
+	padding: 0.3rem;
+	transition: color 0.2s ease;
 }
 
 #theme:hover {
-	cursor: pointer;
-	font-size: 1.75rem;
-	color: var(--header-color);
+	color: var(--accent);
 }

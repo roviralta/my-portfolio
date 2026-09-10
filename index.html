@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Primary -->
+    <title>Sergi Roviralta — Junior Software Engineer</title>
+    <meta
+      name="description"
+      content="Sergi Roviralta — Computer Science Engineer and backend developer working as a testing engineer in an international team. Java, Spring Boot, Node.js and React. Hire me or view my projects."
+    />
+    <meta name="author" content="Sergi Roviralta" />
+    <link rel="canonical" href="https://sergi-roviralta.netlify.app/" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="#0a0a0a"
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sergi Roviralta — Junior Software Engineer" />
+    <meta
+      property="og:description"
+      content="Computer Science Engineer and backend developer. Java, Spring Boot, Node.js and React. Available for work."
+    />
+    <meta property="og:url" content="https://sergi-roviralta.netlify.app/" />
+    <meta property="og:site_name" content="Sergi Roviralta" />
+    <meta property="og:image" content="https://sergi-roviralta.netlify.app/og.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sergi Roviralta — Junior Software Engineer" />
+    <meta
+      name="twitter:description"
+      content="Computer Science Engineer and backend developer. Java, Spring Boot, Node.js and React."
+    />
+    <meta name="twitter:image" content="https://sergi-roviralta.netlify.app/og.png" />
+
+    <script>
+      ;(function () {
+        try {
+          var stored = localStorage.getItem('theme')
+          var theme =
+            stored === 'light' || stored === 'dark'
+              ? stored
+              : window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light'
+          document.documentElement.setAttribute('data-theme', theme)
+        } catch (e) {}
+      })()
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/index.jsx"></script>
+  </body>
+</html>

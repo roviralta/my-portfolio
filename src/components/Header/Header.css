@@ -1,0 +1,113 @@
+.site-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: var(--header-h);
+	z-index: 200;
+	background: color-mix(in srgb, var(--bg) 82%, transparent);
+	backdrop-filter: blur(14px);
+	-webkit-backdrop-filter: blur(14px);
+	border-bottom: 1px solid var(--border);
+}
+
+.header-inner {
+	max-width: 1080px;
+	margin-inline: auto;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	padding: 0 24px;
+}
+
+.logo {
+	font-family: 'JetBrains Mono', monospace;
+	font-weight: 600;
+	font-size: 1.05rem;
+	letter-spacing: 0.05em;
+	color: var(--heading);
+	border: 1px solid var(--border);
+	border-radius: var(--radius-sm);
+	padding: 0.3rem 0.55rem;
+	transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.logo:hover {
+	border-color: var(--accent);
+	color: var(--accent);
+}
+
+.header-nav {
+	display: flex;
+	align-items: center;
+	gap: 0.25rem;
+}
+
+.nav-link {
+	position: relative;
+	padding: 0.45rem 0.8rem;
+	border-radius: 999px;
+	font-size: 0.95rem;
+	font-weight: 500;
+	color: var(--text-muted);
+	transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.nav-link:hover {
+	color: var(--heading);
+	background: var(--surface);
+}
+
+.nav-link.active {
+	color: var(--accent);
+	background: var(--accent-soft);
+}
+
+.header-actions {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+}
+
+.hamburger {
+	display: none;
+	background: transparent;
+	border: none;
+	color: var(--heading);
+	cursor: pointer;
+	line-height: 0;
+	padding: 0.3rem;
+}
+
+@media (max-width: 760px) {
+	.header-nav {
+		position: fixed;
+		top: var(--header-h);
+		left: 0;
+		right: 0;
+		flex-direction: column;
+		align-items: stretch;
+		gap: 0.25rem;
+		padding: 0.75rem 16px 1rem;
+		background: color-mix(in srgb, var(--bg) 92%, transparent);
+		backdrop-filter: blur(14px);
+		border-bottom: 1px solid var(--border);
+		transform: translateY(-120%);
+		transition: transform 0.25s ease;
+	}
+
+	.header-nav.open {
+		transform: none;
+	}
+
+	.nav-link {
+		padding: 0.7rem 0.9rem;
+		font-size: 1rem;
+	}
+
+	.hamburger {
+		display: inline-flex;
+	}
+}

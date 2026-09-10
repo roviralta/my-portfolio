@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sergi-roviralta.netlify.app/sitemap.xml

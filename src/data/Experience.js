@@ -8,7 +8,7 @@ const experience = [
 	{
 		name: 'Functional Analyst IT',
 		company: 'Transpais S.A',
-		time: 'May 2024 - Setember 2025',
+		time: 'May 2024 - September 2025',
 		description:
 			'Responsible for the computer systems required to meet the needs of the organization. Studying the existing systems in place and look up appropriate updates to the current technologies.',
 	},

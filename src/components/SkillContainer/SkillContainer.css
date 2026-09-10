@@ -1,30 +1,46 @@
-#skills {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	margin: 4rem 2rem;
-	scroll-margin-top: 4rem;
+.skill-groups {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 40px 48px;
 }
 
-.iterat-skill {
-	max-width: 500px;
+.skill-group-label {
+	font-size: 0.82rem;
+	font-weight: 600;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--text-muted);
+	margin-bottom: 14px;
+}
+
+.skill-chips {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	flex-wrap: wrap;
-	gap: 2rem;
-	margin-top: 2rem;
+	gap: 10px;
 }
 
-@media (max-width: 768px) {
-	#skills {
-		font-size: 0.95rem;
-	}
+.skill-chip {
+	padding: 7px 16px;
+	border-radius: 999px;
+	border: 1px solid var(--border);
+	font-size: 0.92rem;
+	font-weight: 500;
+	color: var(--text);
+	background: var(--surface);
+	transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease,
+		transform 0.2s ease;
 }
 
-@media (max-width: 440px) {
-	#skills {
-		font-size: 0.8rem;
+.skill-chip:hover {
+	border-color: var(--accent);
+	color: var(--accent);
+	background: var(--accent-soft);
+	transform: translateY(-2px);
+}
+
+@media (max-width: 640px) {
+	.skill-groups {
+		grid-template-columns: 1fr;
+		gap: 32px;
 	}
 }
